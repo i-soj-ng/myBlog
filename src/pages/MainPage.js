@@ -1,26 +1,20 @@
 import React from 'react';
 import './mainpage.css';
-import picture from '../images/picture.jpg';
+import 꽃의왈츠 from '../audio/꽃의왈츠.mp3';
 
 export function MainPage() {
     return (
         <div>
             <header>
-                <a id="title" href="/">Welcome to my area</a>
+                <a id="title">SOJNG's REPOSITORY</a>
+                <audio id="player" controls autoplay loop src={꽃의왈츠}></audio>
             </header>
             <nav>
-                <a id="toDaily" href="/dailyalbum">Daily Album</a>
-                <a id="toMusic" href="/musicalbum">Music Album</a>
-            </nav>
-            <section>
-                <img id="profile_pic" src={picture} alt="Me"/>
-                <div className="content">
-                    <h3 id="name">name: 이소정</h3>
-                    <h3 id="school">school: Kookmin Univ.</h3>
-                    <h3 id="sns">instagram: isojng</h3>
-                    <h3 id="mail">e-mail: isoj0216@kookmin.ac.kr</h3>
+                <div className="category">
+                    <a id="toPhoto" href="/photo_album">Photo Album</a>
+                    <a id="toMusic" href="/music_album">Music Album</a>
                 </div>
-            </section>
+            </nav>
         </div>
     );
 }
