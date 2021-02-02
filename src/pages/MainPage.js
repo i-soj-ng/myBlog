@@ -6,7 +6,7 @@ export function MainPage() {
     return (
         <div>
             <header>
-                <a id="title">SOJNG's REPOSITORY</a>
+                <a id="title" href="/">SOJNG's REPOSITORY</a>
                 <audio id="player" controls autoplay loop src={꽃의왈츠}></audio>
             </header>
             <nav>
