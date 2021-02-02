@@ -1,0 +1,19 @@
+.pictures {
+    margin: 5.5%;
+}
+#taiwan {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+
+}
+#taiwanFlower {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+#flowers {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}

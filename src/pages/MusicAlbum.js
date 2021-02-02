@@ -3,7 +3,7 @@ import React from 'react';
 export function MusicAlbum() {
     return (
         <section>
-            <h1>My favorite music</h1>
+            <h1>Music Album</h1>
         </section>
     );
 }
